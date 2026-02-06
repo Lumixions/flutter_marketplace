@@ -1,0 +1,32 @@
+name: marketplace_v2_app
+description: Marketplace app (buyer mobile + seller web portal)
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: any
+  go_router: any
+  flutter_riverpod: any
+  http: any
+  url_launcher: any
+
+  firebase_core: any
+  firebase_auth: any
+  google_sign_in: any
+  sign_in_with_apple: any
+
+  image_picker: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: any
+
+flutter:
+  uses-material-design: true
+

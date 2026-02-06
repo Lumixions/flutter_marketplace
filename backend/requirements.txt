@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic-settings
+sqlalchemy>=2
+alembic
+psycopg[binary]
+firebase-admin
+boto3
+stripe
+python-multipart
+

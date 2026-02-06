@@ -1,0 +1,27 @@
+.DS_Store
+
+# Flutter
+.dart_tool/
+.packages
+build/
+**/android/.gradle/
+**/android/local.properties
+**/android/key.properties
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Pods/
+**/ios/Runner.xcworkspace/
+**/macos/Flutter/ephemeral/
+**/linux/flutter/ephemeral/
+**/windows/flutter/ephemeral/
+
+# Secrets
+**/.env
+**/*.pem
+**/*service-account*.json
+
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/.pytest_cache/
+
